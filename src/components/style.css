@@ -1,0 +1,10 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App__Button {
+  width: 30px;
+  margin: 5px 0;
+}
