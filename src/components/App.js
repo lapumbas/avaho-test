@@ -9,8 +9,7 @@ class App extends React.Component {
 
   handleClick = evt => {
     const buttons = this.state.buttons;
-    let first, rest;
-    [first, ...rest] = buttons;
+    const [first, ...rest] = buttons;
     rest.push(first)
     this.setState({buttons: rest})
   }
